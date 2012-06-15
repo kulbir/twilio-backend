@@ -1,7 +1,7 @@
 twilio-backend
 ==============
 
-Twilio backend for [django-social-auth](https://github.com/omab/django-social-auth)
+Twilio backend for [django-social-auth](https://github.com/omab/django-social-auth). Twilio backend added in [django-social-auth](https://github.com/omab/django-social-auth).
 
 * Register a new application at [Twilio Connect Api](https://www.twilio.com/user/account/connect/apps)
 
@@ -11,7 +11,6 @@ Twilio backend for [django-social-auth](https://github.com/omab/django-social-au
     `TWILIO_CONNECT_KEY = ''
      TWILIO_AUTH_TOKEN = ''
 `
-* Add twilio backend in `        '/social_auth/backends/contrib/twilio`
 
 * Add desired authentication backends to Django's `AUTHENTICATION_BACKENDS` setting:
 
