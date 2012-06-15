@@ -3,6 +3,8 @@ twilio-backend
 
 Twilio backend for [django-social-auth](https://github.com/omab/django-social-auth)
 
+* Register a new application at [Twilio Connect Api](https://www.twilio.com/user/account/connect/apps)
+
 * fill `TWILIO_CONNECT_KEY` and `TWILIO_AUTH_TOKEN` values in the settings:
 
 

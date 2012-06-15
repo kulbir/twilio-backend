@@ -18,6 +18,7 @@ from social_auth.backends.exceptions import AuthFailed, AuthMissingParameter
 TWILIO_SERVER = 'https://www.twilio.com'
 TWILIO_AUTHORIZATION_URL = 'https://www.twilio.com/authorize/'
 
+
 class TwilioBackend(SocialAuthBackend):
     name = 'twilio'
 
